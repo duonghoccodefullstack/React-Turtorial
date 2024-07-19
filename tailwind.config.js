@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    width : {
+      "ttt" : "500px"
+    },
+    height : {
+      "ttt" : "500px"
+    }
   },
   plugins: [],
 }

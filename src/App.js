@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-// import './App.css';
+
 import './index.css'
 import './photo/index'
 import Photo from './photo/index';
-// import '.'
+import TicTacToe from './tictactoe';
+
 function App() {
   return (
     <div >
-      <Photo></Photo>
+      {/* <Photo></Photo> */}
+      <TicTacToe></TicTacToe>
     </div>
   );
 }
